@@ -1,0 +1,507 @@
+@import url(../styles/fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+.lang__el a{
+    font-family: 'Neu';
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: black;
+    padding-right: 10px;
+}
+.name__brend{
+    font-family: 'Neu';
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: black;
+}
+.comf__el img{
+    /* width: 20px; */
+    height: 18px;
+    padding-right: 10px;
+}
+
+.header{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.lang__el{
+    display: flex;
+    align-items: center;
+}
+.lang__el img{
+    padding-right: 10px;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.razdel a{
+    font-family: 'Neu';
+    font-weight: 400;
+    font-size: 0.87rem;
+    color: black;
+    padding-right: 40px;
+}
+.razdel{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.main__text h1{
+    font-family: 'Neu';
+    font-size: 8.6rem;
+    padding-left: 20px;
+}
+.main__text h3{
+    font-family: 'Man Med';
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-top: 70px;
+}
+.main__text{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.main__photo .main_ph{
+    padding-right: 25px;
+}
+.main__photo{
+    padding-bottom: 170px;
+}
+.text__categ h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    padding-bottom: 80px;
+    color: black;
+}
+.card a{
+    font-family: 'Man Med';
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+    padding-top: 15px;
+}
+.block__card{
+    display: flex;
+    padding-bottom: 170px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+}
+.section-new-collection{
+    background: url(../imgs/6.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 170px;
+
+}
+.main-text h1{
+    font-family: 'Neu';
+    font-size: 4.9rem;
+    color: white;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+.main-text p{
+    font-family: 'Man Reg';
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main-text a{
+    font-family: 'Neu';
+    font-size: 0.87rem;
+    color: black;
+
+    background-color: white;
+    padding: 25px 45px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 116px;
+}
+.text__new h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    color: black;
+    letter-spacing: 3px;
+}
+.text__new{
+    padding-bottom: 67px;
+}
+.text__new #main_2{
+    padding-left: 450px;
+}
+.block__img a{
+    font-family: 'Man Med';
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.block__img{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    padding-bottom: 130px;
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+
+}
+.card-row #img-1{
+    padding-bottom: 35px;
+}
+
+.block__product{
+    width: 1360px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.text_estim h1{
+    font-family: 'Neu';
+    font-size: 3.25rem;
+    color: black;
+}
+.text_estim p{
+    font-family: 'Man Reg';
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+}
+.estim a, p{
+    font-family: 'Man Reg';
+    font-size: 0.87rem;
+    color: black;
+    font-weight: 600;
+}
+.form_1 p, a{
+    font-family: 'Man Reg';
+    font-size: 0.87rem;
+    color: black;
+    font-weight: 600;
+}
+.main_pr #t-2{
+    padding-top: 17px;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+}
+.form_1 a{
+    border-bottom: 0.5px solid black;
+}
+.form_1 select{
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 450px;
+
+    font-family: 'Man Reg';
+    color: #cbcbcb;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.form_2 h1{
+    font-family: 'Neu';
+    font-size: 2.3rem;
+    color: black;
+}
+.form_2 input{
+    background-color: white;
+    padding: 30px 60px;
+    border: 1px solid #cbcbcb;
+    padding-top: 15px;
+    padding-right: 100px;
+
+    font-family: 'Man Reg';
+    color: #cbcbcb;
+    font-size: 1.3rem;
+}
+.product__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 650px;
+}
+/* .form_2 input ::placeholder{
+    
+    display: flex;
+    align-items: center;
+} */
+button{
+    color: white;
+    font-family: 'Neu';
+    font-size: 1rem;
+
+    background-color: black;
+    width: 100%;
+    height: 87px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.estim{
+    display: flex;
+    align-items: center;
+}
+.estim a{
+    font-size: 1.2rem;
+    padding-right: 10px;
+}
+/* .main_pr{
+    display: flex;
+}
+ .text_estim{
+    display: flex;
+    flex-direction: column;
+} */
+.text_estim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form_1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text_f{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+.form_2{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+    align-items: center;
+}
+#zag{
+    color: #9b9b9b;
+    padding-right: 40px;
+}
+.line-4{
+    margin-top: 5px;
+    width: 254px;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+#t_des{
+    width: 430px;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+.section-preim{
+    background-color: black;
+    height: 300px;
+}
+.preim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.preim img{
+    height: 4rem;
+    padding-bottom: 25px;
+}
+.preim h3{
+    font-family: 'Neu';
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+.preim p{
+    font-family: 'Man Reg';
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.preim__block{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+.photo_text_block h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.photo_text_block p{
+    font-size: 1rem;
+}
+.photo_text_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-about{
+    padding-left: 60px;
+}
+.photo_text_block{
+    padding-top: 140px;
+}
+.section-form-subscribe{
+    margin-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+}
+.sub-head{
+    padding-top: 130px;
+}
+.sub-head h1{
+    font-family: 'Neu';
+    font-size: 4.3rem;
+    color: white;
+    font-weight: 400;
+}
+.sub-head .two-head{
+    padding-left: 340px;
+}
+.forms-photo-sub{
+    padding-top: 70px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.forms-photo-sub p{
+    font-family: 'Man Reg';
+    font-size: 1.45rem;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+form .name-s, .phone-s, .mail-s{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+.forma-dannie input{
+    width: 100%;
+    border: 1px solid #3d3d3d;
+    background: none;
+    padding: 15px;
+    margin-top: 11px;
+}
+
+.rassilka-s p{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-bottom: 17px;
+}
+.rassilka-s label{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sogl label{
+    font-family: 'Man Reg';
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+.forms-sub .but-f{
+    width: 100%;
+    background-color: none;
+    padding: 15px;
+    height: 84px;
+
+    font-family: 'Neu';
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 400;
+    border: 1px solid white;
+}
+.forms-sub .but-f:hover{
+    background-color: white;
+    border: none;
+    color: black;
+    transition: all ease 0.2s;
+}
+.sogl{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+.forms-sub{
+    padding-left: 130px;
+}
+.section-footer{
+    background-color: black;
+    width: 100%;
+}
+.line-5{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+.section-footer p{
+    color: white;
+    font-family: 'Man Med';
+    font-size: 1rem;
+    font-weight: 400;
+}
+.foot a{
+    color: white;
+    font-family: 'Man Med';
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+}
+.social-f{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-f a{
+    border-bottom: none;
+}
+.foot{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
